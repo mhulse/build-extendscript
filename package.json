@@ -1,0 +1,36 @@
+{
+  "name": "build-extendscript",
+  "version": "0.1.0",
+  "description": "Builds ExtendScript JSX",
+  "repository": "https://github.com/mhulse/build-extendscript",
+  "license": "",
+  "engines": {
+    "atom": "^1.0.0"
+  },
+  "providedServices": {
+    "builder": {
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  },
+  "dependencies": {
+    "glob": "^6.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.5",
+    "eslint": "^1.10.1",
+    "eslint-config-atom-build": "^1.0.0"
+  },
+  "keywords": [
+    "build",
+    "compile",
+    "extendscript",
+    "jsx",
+    "os x",
+    "adobe",
+    "photoshop",
+    "illustrator"
+  ],
+  "main": "lib/main.js"
+}
